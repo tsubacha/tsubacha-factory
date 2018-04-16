@@ -1,0 +1,540 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"z-",
+				"z-index"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"me",
+				"meta\tTag"
+			],
+			[
+				"s",
+				"src\tAttr"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"paddi",
+				"padding-top"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"text-a",
+				"text-align"
+			],
+			[
+				"paddin",
+				"padding"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"un",
+				"unten-hyouka.jpg\tw:401 h:271"
+			],
+			[
+				"li",
+				"li\tTag"
+			],
+			[
+				"error",
+				"error_log"
+			],
+			[
+				"lo",
+				"logicompass/"
+			],
+			[
+				"inde",
+				"index-header-sp.jpg\tw:680 h:740"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"he",
+				"Heavy-Halftone-Scren-Small.png\tw:1000 h:1000"
+			],
+			[
+				"systec-lo",
+				"systec-logo.png\tw:352 h:79"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "PageLoadingEffects/index2.html",
+			"settings":
+			{
+				"buffer_size": 3406,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 10371,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "au",
+		"selected_items":
+		[
+			[
+				"au",
+				"Autoprefix CSS"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"listpa",
+				"Package Control: List Packages"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Disable Package"
+			]
+		],
+		"width": 444.0
+	},
+	"console":
+	{
+		"height": 130.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/tsubacha/Desktop/TSUBACHA-FACTORY/top",
+		"/Users/tsubacha/Desktop/TSUBACHA-FACTORY/top/PageLoadingEffects",
+		"/Users/tsubacha/Desktop/TSUBACHA-FACTORY/top/PageLoadingEffects/css"
+	],
+	"file_history":
+	[
+		"/Users/tsubacha/Desktop/TSUBACHA-FACTORY/top/PageLoadingEffects/css/component.css",
+		"/Users/tsubacha/Desktop/TSUBACHA-FACTORY/top/PageLoadingEffects/css/demo.css",
+		"/Users/tsubacha/Desktop/TSUBACHA-FACTORY/top/PageLoadingEffects/index2.html",
+		"/Users/tsubacha/Desktop/TSUBACHA-FACTORY/top/sass/style.scss",
+		"/Users/tsubacha/Desktop/TSUBACHA-FACTORY/top/sass/components/_navbar.scss",
+		"/Users/tsubacha/Desktop/TSUBACHA-FACTORY/top/top.html",
+		"/Users/tsubacha/Desktop/TSUBACHA-FACTORY/top/index.html",
+		"/Users/tsubacha/Desktop/TSUBACHA-FACTORY/top/sass/index.scss",
+		"/Users/tsubacha/Desktop/TSUBACHA-FACTORY/top/css/index.css",
+		"/Users/tsubacha/Desktop/TSUBACHA-FACTORY/top/sass/base.scss",
+		"/Users/tsubacha/Desktop/TSUBACHA-FACTORY/top/css/style.css",
+		"/Users/tsubacha/Desktop/new-sass/materialize-src 2/index.html",
+		"/Users/tsubacha/Desktop/ILOVEME/sass-love/sass/materialize.scss",
+		"/Users/tsubacha/Desktop/ILOVEME/sass-love/index.html",
+		"/Users/tsubacha/Desktop/ILOVEME/sass-love/sass/components/_normalize.scss",
+		"/Users/tsubacha/Desktop/ILOVEME/sass-love/sass/components/_buttons.scss",
+		"/Users/tsubacha/Desktop/ILOVEME/nomal/index.html",
+		"/Users/tsubacha/Desktop/ILOVEME/materialize-src/css/materialize.css",
+		"/Users/tsubacha/Desktop/ILOVEME/materialize-src/config.rb",
+		"/Users/tsubacha/Desktop/ILOVEME/starter-template/index.html",
+		"/Users/tsubacha/Desktop/lp-2/assets/css/styles.css",
+		"/Users/tsubacha/Desktop/sass-rensyu/scss/abc.scss",
+		"/Users/tsubacha/Desktop/sass-rensyu/css/abc.css",
+		"/Users/tsubacha/Dropbox/POPBERRY-css/sftp-config.json",
+		"/Users/tsubacha/Desktop/sass-rensyu/config.rb",
+		"/Users/tsubacha/Desktop/lp-2/index.html",
+		"/Users/tsubacha/Desktop/lp-2/assets/css/bootstrap.min.css",
+		"/Users/tsubacha/Desktop/lp-2/assets/js/rs-plugin/css/settings.css",
+		"/Users/tsubacha/Desktop/html-systec2000-hp/config.rb",
+		"/Users/tsubacha/Desktop/html-systec2000-hp/scss/aaa.css",
+		"/Users/tsubacha/Desktop/html-systec2000-hp/scss/aaa.scss",
+		"/Users/tsubacha/Desktop/株式会社システック/システック2000再構築のコピー/html-systec2000-hp/config.rb",
+		"/Users/tsubacha/Desktop/株式会社システック/システック2000再構築のコピー/html-systec2000-hp/untitled.scss",
+		"/Users/tsubacha/Desktop/株式会社システック/システック2000再構築のコピー/html-systec2000-hp/sass/untitled.scss",
+		"/Users/tsubacha/Desktop/lp-1/lp-1/index.html",
+		"/Users/tsubacha/Desktop/LP-00002/assets/css/styles.css",
+		"/Users/tsubacha/Desktop/LP-00002/index.html",
+		"/Users/tsubacha/Desktop/LP-00002/assets/css/bootstrap.min.css",
+		"/Users/tsubacha/Desktop/LP-00002/assets/js/scripts.js",
+		"/Users/tsubacha/Desktop/LP-00002/assets/js/slick.min.js",
+		"/Users/tsubacha/Desktop/LP-00002/assets/css/slick.css",
+		"/Users/tsubacha/Desktop/LP-00002/assets/less/colors.less",
+		"/Users/tsubacha/Desktop/LP改善/index.html",
+		"/Users/tsubacha/Desktop/llllpダミー/config.rb",
+		"/Users/tsubacha/Desktop/llllpダミー/index.html",
+		"/Users/tsubacha/Desktop/llllpダミー/style.scss",
+		"/Users/tsubacha/Desktop/株式会社システック/システック2000再構築/html-systec2000-hp/logilite.html",
+		"/Users/tsubacha/Desktop/株式会社システック/システック2000再構築/html-systec2000-hp/logilite/style.css",
+		"/Users/tsubacha/Desktop/株式会社システック/システック2000再構築/html-systec2000-hp/logitacho/style.css",
+		"/Users/tsubacha/Desktop/株式会社システック/システック2000再構築/html-systec2000-hp/company-information.css",
+		"/Users/tsubacha/Desktop/【復旧後wp】システック2000/imagely_journal/style.css",
+		"/Users/tsubacha/Downloads/imagely_journal/style.css",
+		"/Users/tsubacha/Desktop/【復旧後wp】システック2000/sftp-config.json",
+		"/Applications/MAMP/htdocs/wp-compass/sftp-config.json",
+		"/Applications/MAMP/htdocs/wp-systec2000/sftp-config.json",
+		"/Users/tsubacha/Desktop/株式会社システック/システック2000再構築/sftp-config.json",
+		"/Applications/MAMP/htdocs/wp-tacho/wp-content/themes/xeory_extension/style.css",
+		"/Applications/MAMP/htdocs/wp-compass/wp-content/themes/xeory_extension/style.css",
+		"/Applications/MAMP/htdocs/wp-tacho/wp-content/themes/xeory_extension/footer.php",
+		"/Applications/MAMP/htdocs/wp-compass/wp-content/themes/xeory_extension/footer.php",
+		"/Applications/MAMP/htdocs/wp-tacho/wp-config.php",
+		"/Applications/MAMP/htdocs/wp-compass/wp-config.php",
+		"/Applications/MAMP/htdocs/wp-compass/wp-content/themes/xeory_extension/header.php",
+		"/Applications/MAMP/htdocs/wp-compass/wp-content/themes/xeory_extension/front-page.php",
+		"/Users/tsubacha/Desktop/株式会社システック/ロジこんぱす再構築/html-logicompass-hp/about/function/customize.html",
+		"/Users/tsubacha/Desktop/株式会社システック/ロジこんぱす再構築/html-logicompass-hp/about/function/emperature.html",
+		"/Users/tsubacha/Desktop/株式会社システック/ロジこんぱす再構築/html-logicompass-hp/about/function/runningpath.html",
+		"/Users/tsubacha/Desktop/wp-lite.4.9.4/sftp-config.json",
+		"/Users/tsubacha/Desktop/wp-lite.4.9.4/wp-content/themes/xeory_extension/front-page.php",
+		"/Users/tsubacha/Desktop/株式会社システック/ロジこんぱすLite再構築/html-logilite-hp/sftp-config-alt.json",
+		"/Users/tsubacha/Desktop/wp-lite.4.9.4/wp-config.php",
+		"/Users/tsubacha/Desktop/wp-lite.4.9.4/.htaccess",
+		"/Applications/MAMP/htdocs/wp-lite/wp-includes/version.php",
+		"/Applications/MAMP/htdocs/wp-lite/wp-includes/pluggable.php",
+		"/Applications/MAMP/htdocs/wp-lite/wp-content/themes/xeory_extension/lib/functions/widget.php",
+		"/Applications/MAMP/htdocs/wp-lite/wp-admin/includes/options.php",
+		"/Applications/MAMP/htdocs/wp-lite/wp-includes/css/admin-bar-rtl.min.css",
+		"/Applications/MAMP/htdocs/wp-compass/.htaccess",
+		"/Applications/MAMP/htdocs/wp-compass/消したhtacsess",
+		"/Users/tsubacha/Desktop/wp-lite/sftp-config.json",
+		"/Users/tsubacha/Desktop/wp-lite/wp-config.php",
+		"/Users/tsubacha/Desktop/wp-lite/.htaccess",
+		"/Users/tsubacha/Desktop/wp-lite/wp-content/themes/xeory_extension/front-page.php",
+		"/Users/tsubacha/Desktop/wp-lite/wp-content/themes/xeory_extension/style.css",
+		"/Users/tsubacha/Desktop/wp-lite/wp-content/themes/xeory_extension/header.php",
+		"/Users/tsubacha/Desktop/wp-lite/wp-content/themes/xeory_extension/footer.php",
+		"/Users/tsubacha/Desktop/wp-lite/wp-content/maintenance.php",
+		"/Users/tsubacha/Desktop/wp-lite/wp-content/cache/supercache/logilite.net/uncategorized/hello-world/wp-cache-uncategorized17b613b8622d1ad060d547d7319ff68e.php",
+		"/Users/tsubacha/Desktop/wp-lite/wp-content/cache/supercache/logilite.net/uncategorized/hello-world/index-https.html",
+		"/Users/tsubacha/Desktop/wp-lite/wp-content/cache/supercache/logilite.net/product/index-https.html",
+		"/Users/tsubacha/Desktop/wp-lite/wp-content/cache/supercache/logilite.net/product/index-https-mobile.html",
+		"/Users/tsubacha/Desktop/wp-lite/wp-content/cache/supercache/logilite.net/privacy/index-https.html",
+		"/Users/tsubacha/Desktop/wp-lite/wp-content/cache/supercache/logilite.net/point/index-https.html",
+		"/Users/tsubacha/Desktop/wp-lite/wp-content/cache/supercache/logilite.net/point/index-https-mobile.html",
+		"/Users/tsubacha/Desktop/wp-lite/wp-content/cache/supercache/logilite.net/index-https.html",
+		"/Users/tsubacha/Desktop/wp-lite/wp-content/cache/supercache/logilite.net/index-https-mobile.html",
+		"/Users/tsubacha/Desktop/wp-lite/wp-content/cache/supercache/logilite.net/feed/wp-cache-feedb2252324411aaa244ce9c8b0eeca487f.php",
+		"/Users/tsubacha/Desktop/wp-lite/wp-content/cache/supercache/logilite.net/contact/index-https.html",
+		"/Users/tsubacha/Desktop/wp-lite/wp-content/cache/supercache/logilite.net/comments/feed/wp-cache-commentscf5335ec0f2fd8f1e31838a7b3a1c99c.php",
+		"/Users/tsubacha/Desktop/wp-lite/wp-content/cache/supercache/logilite.net/category/uncategorized/index-https.html",
+		"/Users/tsubacha/Desktop/wp-lite/wp-content/cache/supercache/logilite.net/2017/07/index-https.html",
+		"/Users/tsubacha/Desktop/wp-lite/wp-content/cache/page_enhanced/localhost/wp-lite/product/_index.html_old",
+		"/Users/tsubacha/Desktop/wp-lite/wp-content/cache/page_enhanced/localhost/wp-lite/point/_index.html_old",
+		"/Users/tsubacha/Desktop/wp-lite/wp-content/cache/page_enhanced/localhost/wp-lite/_index.html_old",
+		"/Users/tsubacha/Desktop/wp-lite/ローカル用config/wp-config.php",
+		"/Users/tsubacha/Downloads/wp-lite-new.sql",
+		"/Users/tsubacha/Desktop/wp-lite.sql",
+		"/Users/tsubacha/Downloads/wp-lite.sql",
+		"/Applications/MAMP/htdocs/wp-lite/.htaccess",
+		"/Users/tsubacha/Desktop/【ローカル用】wp-tacho/.htaccess",
+		"/Users/tsubacha/Desktop/【ローカル用】wp-tacho/wp-tacho.sql",
+		"/Users/tsubacha/Desktop/【ローカル用】wp-tacho/wp-content/cache/page_enhanced/localhost/wp-tacho/home.html/_index.html_old",
+		"/Users/tsubacha/Desktop/【ローカル用】wp-tacho/wp-content/cache/page_enhanced/localhost/wp-tacho/merit.html/_index.html_old",
+		"/Users/tsubacha/Desktop/【ローカル用】wp-tacho/wp-content/cache/page_enhanced/localhost/wp-tacho/outline.html/_index.html_old",
+		"/Users/tsubacha/Desktop/【ローカル用】wp-tacho/wp-content/cache/page_enhanced/localhost/wp-tacho/q_a.html/_index.html_old",
+		"/Users/tsubacha/Desktop/【ローカル用】wp-tacho/wp-content/cache/page_enhanced/localhost/wp-tacho/spec.html/_index.html_old",
+		"/Users/tsubacha/Desktop/【ローカル用】wp-tacho/wp-content/themes/xeory_extension/front-page.php",
+		"/Applications/MAMP/htdocs/wp-tacho/wp-content/themes/xeory_extension/front-page.php",
+		"/Applications/MAMP/htdocs/wp-tacho/wp-content/cache/page_enhanced/localhost/wp-tacho/home.html/_index.html_old",
+		"/Applications/MAMP/htdocs/wp-tacho/wp-content/cache/page_enhanced/localhost/wp-tacho/merit.html/_index.html_old",
+		"/Applications/MAMP/htdocs/wp-tacho/wp-content/cache/page_enhanced/localhost/wp-tacho/outline.html/_index.html_old",
+		"/Applications/MAMP/htdocs/wp-tacho/wp-content/cache/page_enhanced/localhost/wp-tacho/q_a.html/_index.html_old",
+		"/Applications/MAMP/htdocs/wp-tacho/wp-content/cache/page_enhanced/localhost/wp-tacho/spec.html/_index.html_old",
+		"/Applications/MAMP/htdocs/wp-tacho/sftp-config.json",
+		"/Users/tsubacha/Desktop/株式会社システック/ロジたこ再構築/html-logitacho-hp/q_a-manual.html",
+		"/Applications/MAMP/htdocs/wp-tacho/wp-content/plugins/bwl-advanced-faq-manager/lang/bwl-adv-faq-he_IL.po",
+		"/Applications/MAMP/htdocs/wp-tacho/wp-content/plugins/bwl-advanced-faq-manager/lang/bwl-adv-faq-nl_NL.po",
+		"/Applications/MAMP/htdocs/wp-tacho/wp-content/plugins/bwl-advanced-faq-manager/lang/bwl-adv-faq-pt_BR.po"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 101.0,
+		"where_history":
+		[
+			"/Users/tsubacha/Desktop/TSUBACHA-FACTORY/top/PageLoadingEffects/css"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"container"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"anime-container"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "/Users/tsubacha/Desktop/TSUBACHA-FACTORY/top"
+		}
+	],
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "PageLoadingEffects/index2.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3406,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1116,
+								1116
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 275.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10371,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9629,
+								9629
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3618.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 102.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 102.0
+	},
+	"pinned_build_system": "Packages/Compass/Compass.sublime-build",
+	"project": "",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"wp-includes/pluggable.php",
+				"wp-includes/pluggable.php"
+			],
+			[
+				"xeory_extension/functions",
+				"wp-content/themes/xeory_extension/functions.php"
+			],
+			[
+				"functions.php",
+				"wp-content/themes/xeory_extension/functions.php"
+			],
+			[
+				"wiget.php",
+				"wp-content/themes/xeory_extension/lib/functions/widget.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 210.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

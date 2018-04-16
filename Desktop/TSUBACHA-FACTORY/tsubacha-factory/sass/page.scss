@@ -1,0 +1,51 @@
+$breakpoint-mobile: 992px;
+$breakpoint-tablet: 993px;
+
+@mixin max-screen($break-point) {
+    @media screen and (max-width: $break-point) {
+        @content;
+    }
+}
+
+@mixin min-screen($break-point) {
+    @media screen and (min-width: $break-point) {
+        @content;
+    }
+}
+
+@mixin screen($break-point-min, $break-point-max) {
+    @media screen and (min-width: $break-point-min) and (max-width: $break-point-max) {
+        @content;
+    }
+}
+#loader {
+    width: 160px;
+    height: 20px;
+    display: none;
+    position: fixed;
+    _position: absolute;
+    top: 60%;
+    left: 50%;
+    margin-top: -40px;
+    margin-left: -40px;
+    z-index: 4;
+    @include min-screen($breakpoint-tablet) {
+        top: 60%;
+        left: 50%;
+    }
+    @include max-screen($breakpoint-mobile) {
+        top: 50%;
+        left: 40%;
+    }
+}
+
+#fade {
+    width: 100%;
+    height: 100%;
+    display: none;
+    background: #262626;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 3;
+}

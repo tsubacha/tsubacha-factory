@@ -1,0 +1,415 @@
+@font-face {
+    font-family: "MyFont";
+    src: url(http://tsubacha.com/webfont/Saltery.eot) format("eot"), url(http://tsubacha.com/webfont/Saltery.woff) format("woff");
+}
+
+$breakpoint-mobile: 992px;
+$breakpoint-tablet: 993px;
+
+@mixin max-screen($break-point) {
+    @media screen and (max-width: $break-point) {
+        @content;
+    }
+}
+
+@mixin min-screen($break-point) {
+    @media screen and (min-width: $break-point) {
+        @content;
+    }
+}
+
+@mixin screen($break-point-min, $break-point-max) {
+    @media screen and (min-width: $break-point-min) and (max-width: $break-point-max) {
+        @content;
+    }
+}
+
+.item {
+    opacity: 0;
+}
+
+@mixin animationValue( $name, $duration, $function, $delay, $count, $state) {
+    -webkit-animation: $name $duration+s $function $delay+s $count $state;
+    animation: $name $duration+s $function $delay+s $count $state;
+}
+
+@for $cnt from 1 through 4 {
+    .item:nth-child(#{$cnt}) {
+        @include animationValue(example, 0.8, ease, $cnt * 0.8, 1, forwards);
+    }
+}
+
+@mixin keyframes($name) {
+    @-webkit-keyframes #{$name} {
+        @content;
+    }
+    @keyframes #{$name} {
+        @content;
+    }
+}
+
+@include keyframes(example) {
+    100% {
+        opacity: 1;
+    }
+}
+
+body {
+    background: #292929;
+    color: #ddd;
+    font-family: "Rounded Mplus 1c";
+}
+
+div {
+    height: 100%;
+}
+
+.text-shadow {
+    text-shadow: 2px 2px 3px #000000;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "MyFont";
+}
+
+.drop-shadow {
+    -webkit-filter: drop-shadow(2px 5px 10px rgba(0, 0, 0, .100));
+    filter: drop-shadow(2px 5px 10px rgba(0, 0, 0, 100));
+}
+
+.top-caption {
+    @include min-screen($breakpoint-tablet) {
+        display: none;
+    }
+}
+
+.container img {
+    max-width: 100%;
+}
+
+.materialboxed img {
+    z-index: 9999!important;
+}
+
+#top-slider {
+    @include max-screen($breakpoint-mobile) {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+}
+
+#sp-logo {
+    position: fixed;
+    z-index: 4;
+    height: 54px;
+    top: 2px;
+    left: 10px;
+}
+
+#sp-top-contact {
+    position: fixed;
+    z-index: 4;
+    height: 54px;
+    bottom: 14px;
+    right: 10px;
+
+    .btn-large i {
+        font-size: 30px!important;
+        vertical-align: bottom!important;
+    }
+    @include min-screen($breakpoint-tablet) {
+        display: none;
+    }
+    a {
+        font-size: 19px;
+    }
+}
+
+#top-contact {
+    position: fixed;
+    top: 14px;
+    right: 10px;
+    z-index: 300;
+    #top-contact a {
+        line-height: 3em;
+        font-size: 18px;
+        vertical-align: middle;
+    }
+    .btn-large i {
+        font-size: 30px!important;
+        vertical-align: bottom!important;
+    }
+    @include max-screen($breakpoint-mobile) {
+        display: none;
+    }
+}
+
+nav.sp-menu-bg {
+    position: fixed;
+    z-index: 3;
+    background: #ee6192;
+    @include min-screen($breakpoint-tablet) {
+        display: none;
+    }
+}
+
+#anime-logo {
+    @include min-screen($breakpoint-tablet) {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 200;
+        pointer-events: none;
+    }
+    @include max-screen($breakpoint-mobile) {
+        display: none;
+    }
+}
+
+#anime-logo-s {
+    @include min-screen($breakpoint-tablet) {
+        display: none;
+    }
+    @include max-screen($breakpoint-mobile) {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 5;
+        pointer-events: none;
+    }
+}
+
+#menu-fixed {
+    @include min-screen($breakpoint-tablet) {
+        position: fixed;
+        overflow: hidden;
+        z-index: 100;
+        pointer-events: none;
+    }
+    @include max-screen($breakpoint-mobile) {
+        display: none;
+    }
+}
+
+#menu-bg {
+    @include min-screen($breakpoint-tablet) {
+        position: fixed;
+        width: 219px;
+        height: 320px;
+        top: 366px;
+        left: 7px;
+        background: #292929;
+        border: solid 7px #9ccc65;
+        z-index: 150;
+        box-shadow: 3px 3px 9px #000000;
+        a {
+            display: block;
+            color: #ffffff;
+            font-size: 19px;
+            line-height: 2.8em;
+            padding-left: 20px;
+        }
+        a:hover {
+            background: #1e1e1e;
+        }
+    }
+    @include max-screen($breakpoint-mobile) {
+        display: none;
+    }
+}
+
+#top-text p {
+    line-height: 1em;
+    @include max-screen($breakpoint-mobile) {
+        display: none;
+    }
+}
+
+#sp-top-text p {
+    line-height: 1em;
+    @include min-screen($breakpoint-tablet) {
+        display: none;
+    }
+}
+
+#photo {
+    @include max-screen($breakpoint-mobile) {
+        padding-top: 50px;
+    }
+}
+
+#photo-icon {
+    float: left;
+    padding: 0px 10px 10px 0px;
+}
+
+#photo-text h2 {
+    float: left;
+    margin: 5px;
+    @include min-screen($breakpoint-tablet) {
+        margin: 13px 5px;
+        font-size: 25px;
+    }
+}
+
+
+#contents-title h1 {
+    padding-top: 70px;
+    @include max-screen($breakpoint-mobile) {
+        display: none;
+    }
+}
+
+#sp-contents-title h1 {
+    padding-top: 20px;
+    @include min-screen($breakpoint-tablet) {
+        display: none;
+    }
+}
+
+.garally li {
+    width: 32%;
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+    @include max-screen($breakpoint-mobile) {
+        width: 100%;
+    }
+}
+
+.garally2 li {
+    width: 23%;
+    float: left;
+    padding: 5px;
+    box-sizing: border-box;
+    @include max-screen($breakpoint-mobile) {
+        width: 50%;
+    }
+}
+
+
+/* #collection-title h5 {*/
+
+
+/*     padding-left: 100px;*/
+
+
+/* }*/
+
+.contact-form {
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    @include max-screen($breakpoint-mobile) {
+        width: 100%;
+    }
+}
+
+
+#footer-about {
+    @include min-screen($breakpoint-tablet) {
+        padding-left: 100px;
+    }
+}
+
+#jpn-lang h5 {
+    font-family: "Rounded Mplus 1c"!important;
+    font-weight: 400;
+}
+
+.list {
+    overflow: hidden;
+}
+
+.list li {
+    transition: .8s;
+}
+
+.list-mv01 {
+    transform: scale(0, 0);
+    -webkit-transform: scale(0, 0);
+}
+
+.mv01 {
+    transform: scale(1, 1);
+    -webkit-transform: scale(1, 1);
+}
+
+.about-tsubacha {
+    p {
+        font-size: 13px;
+    }
+}
+
+#design-tool-photo {
+    figure {
+        float: left;
+        width: 22%;
+        margin: 10px;
+        box-sizing: border-box;
+        @include max-screen($breakpoint-mobile) {
+            width: 50%;
+            margin-right: auto!important;
+            margin-left: auto!important;
+        }
+    }
+}
+
+textarea {
+    color: #ffffff;
+}
+
+input {
+    color: #ffffff;
+}
+
+.page-title {
+    @include min-screen($breakpoint-tablet) {
+        padding-top: 100px;
+    }
+    @include max-screen($breakpoint-mobile) {
+        padding-top: 50px;
+    }
+}
+
+#loader {
+    width: 160px;
+    height: 20px;
+    display: none;
+    position: fixed;
+    _position: absolute;
+    top: 60%;
+    left: 50%;
+    margin-top: -40px;
+    margin-left: -40px;
+    z-index: 4;
+    @include min-screen($breakpoint-tablet) {
+        top: 60%;
+        left: 50%;
+    }
+    @include max-screen($breakpoint-mobile) {
+        top: 50%;
+        left: 40%;
+    }
+}
+
+#fade {
+    width: 100%;
+    height: 100%;
+    display: none;
+    background: #262626;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 3;
+}
+
+// #top-web-graphicdesign {
+//   margin-left: 50px;
+//   box-sizing: border-box;
+// }

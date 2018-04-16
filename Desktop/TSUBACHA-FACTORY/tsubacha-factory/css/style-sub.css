@@ -1,0 +1,489 @@
+@font-face {
+  font-family: "MyFont";
+  src: url(http://tsubacha.com/webfont/Saltery.eot) format("eot"), url(http://tsubacha.com/webfont/Saltery.woff) format("woff");
+}
+/* line 27, ../sass/style-sub.scss */
+.item {
+  opacity: 0;
+}
+
+/* line 37, ../sass/style-sub.scss */
+.item:nth-child(1) {
+  -webkit-animation: example 0.8s ease 0.8s 1 forwards;
+  animation: example 0.8s ease 0.8s 1 forwards;
+}
+
+/* line 37, ../sass/style-sub.scss */
+.item:nth-child(2) {
+  -webkit-animation: example 0.8s ease 1.6s 1 forwards;
+  animation: example 0.8s ease 1.6s 1 forwards;
+}
+
+/* line 37, ../sass/style-sub.scss */
+.item:nth-child(3) {
+  -webkit-animation: example 0.8s ease 2.4s 1 forwards;
+  animation: example 0.8s ease 2.4s 1 forwards;
+}
+
+/* line 37, ../sass/style-sub.scss */
+.item:nth-child(4) {
+  -webkit-animation: example 0.8s ease 3.2s 1 forwards;
+  animation: example 0.8s ease 3.2s 1 forwards;
+}
+
+@-webkit-keyframes example {
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes example {
+  100% {
+    opacity: 1;
+  }
+}
+/* line 57, ../sass/style-sub.scss */
+body {
+  background: #292929;
+  color: #ddd;
+  font-family: "Rounded Mplus 1c";
+}
+
+/* line 63, ../sass/style-sub.scss */
+div {
+  height: 100%;
+}
+
+/* line 67, ../sass/style-sub.scss */
+.text-shadow {
+  text-shadow: 2px 2px 3px #000000;
+}
+
+/* line 71, ../sass/style-sub.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "MyFont";
+}
+
+/* line 80, ../sass/style-sub.scss */
+.drop-shadow {
+  -webkit-filter: drop-shadow(2px 5px 10px rgba(0, 0, 0, 0.1));
+  filter: drop-shadow(2px 5px 10px black);
+}
+
+@media screen and (min-width: 993px) {
+  /* line 85, ../sass/style-sub.scss */
+  .top-caption {
+    display: none;
+  }
+}
+
+/* line 91, ../sass/style-sub.scss */
+.container img {
+  max-width: 100%;
+}
+
+/* line 95, ../sass/style-sub.scss */
+.materialboxed img {
+  z-index: 9999 !important;
+}
+
+@media screen and (max-width: 992px) {
+  /* line 99, ../sass/style-sub.scss */
+  #top-slider {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+}
+
+/* line 106, ../sass/style-sub.scss */
+#sp-logo {
+  position: fixed;
+  z-index: 4;
+  height: 54px;
+  top: 2px;
+  left: 10px;
+}
+
+/* line 114, ../sass/style-sub.scss */
+#sp-top-contact {
+  position: fixed;
+  z-index: 4;
+  height: 54px;
+  bottom: 14px;
+  right: 10px;
+}
+/* line 121, ../sass/style-sub.scss */
+#sp-top-contact .btn-large i {
+  font-size: 30px !important;
+  vertical-align: bottom !important;
+}
+@media screen and (min-width: 993px) {
+  /* line 114, ../sass/style-sub.scss */
+  #sp-top-contact {
+    display: none;
+  }
+}
+/* line 128, ../sass/style-sub.scss */
+#sp-top-contact a {
+  font-size: 19px;
+}
+
+/* line 133, ../sass/style-sub.scss */
+#top-contact {
+  position: fixed;
+  top: 14px;
+  right: 10px;
+  z-index: 300;
+}
+/* line 138, ../sass/style-sub.scss */
+#top-contact #top-contact a {
+  line-height: 3em;
+  font-size: 18px;
+  vertical-align: middle;
+}
+/* line 143, ../sass/style-sub.scss */
+#top-contact .btn-large i {
+  font-size: 30px !important;
+  vertical-align: bottom !important;
+}
+@media screen and (max-width: 992px) {
+  /* line 133, ../sass/style-sub.scss */
+  #top-contact {
+    display: none;
+  }
+}
+
+/* line 152, ../sass/style-sub.scss */
+nav.sp-menu-bg {
+  position: fixed;
+  z-index: 3;
+  background: #ee6192;
+}
+@media screen and (min-width: 993px) {
+  /* line 152, ../sass/style-sub.scss */
+  nav.sp-menu-bg {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 993px) {
+  /* line 161, ../sass/style-sub.scss */
+  #anime-logo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 200;
+    pointer-events: none;
+  }
+}
+@media screen and (max-width: 992px) {
+  /* line 161, ../sass/style-sub.scss */
+  #anime-logo {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 993px) {
+  /* line 174, ../sass/style-sub.scss */
+  #anime-logo-s {
+    display: none;
+  }
+}
+@media screen and (max-width: 992px) {
+  /* line 174, ../sass/style-sub.scss */
+  #anime-logo-s {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    pointer-events: none;
+  }
+}
+
+@media screen and (min-width: 993px) {
+  /* line 187, ../sass/style-sub.scss */
+  #menu-fixed {
+    position: fixed;
+    overflow: hidden;
+    z-index: 100;
+    pointer-events: none;
+  }
+}
+@media screen and (max-width: 992px) {
+  /* line 187, ../sass/style-sub.scss */
+  #menu-fixed {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 993px) {
+  /* line 199, ../sass/style-sub.scss */
+  #menu-bg {
+    position: fixed;
+    width: 219px;
+    height: 320px;
+    top: 366px;
+    left: 7px;
+    background: #292929;
+    border: solid 7px #9ccc65;
+    z-index: 150;
+    box-shadow: 3px 3px 9px #000000;
+  }
+  /* line 210, ../sass/style-sub.scss */
+  #menu-bg a {
+    display: block;
+    color: #ffffff;
+    font-size: 19px;
+    line-height: 2.8em;
+    padding-left: 20px;
+  }
+  /* line 217, ../sass/style-sub.scss */
+  #menu-bg a:hover {
+    background: #1e1e1e;
+  }
+}
+@media screen and (max-width: 992px) {
+  /* line 199, ../sass/style-sub.scss */
+  #menu-bg {
+    display: none;
+  }
+}
+
+/* line 226, ../sass/style-sub.scss */
+#top-text p {
+  line-height: 1em;
+}
+@media screen and (max-width: 992px) {
+  /* line 226, ../sass/style-sub.scss */
+  #top-text p {
+    display: none;
+  }
+}
+
+/* line 233, ../sass/style-sub.scss */
+#sp-top-text p {
+  line-height: 1em;
+}
+@media screen and (min-width: 993px) {
+  /* line 233, ../sass/style-sub.scss */
+  #sp-top-text p {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  /* line 240, ../sass/style-sub.scss */
+  #photo {
+    padding-top: 50px;
+  }
+}
+
+/* line 246, ../sass/style-sub.scss */
+#photo-icon {
+  float: left;
+  padding: 0px 10px 10px 0px;
+}
+
+/* line 251, ../sass/style-sub.scss */
+#photo-text h2 {
+  float: left;
+  margin: 5px;
+}
+@media screen and (min-width: 993px) {
+  /* line 251, ../sass/style-sub.scss */
+  #photo-text h2 {
+    margin: 13px 5px;
+    font-size: 25px;
+  }
+}
+
+/* line 261, ../sass/style-sub.scss */
+#contents-title h1 {
+  padding-top: 70px;
+}
+@media screen and (max-width: 992px) {
+  /* line 261, ../sass/style-sub.scss */
+  #contents-title h1 {
+    display: none;
+  }
+}
+
+/* line 268, ../sass/style-sub.scss */
+#sp-contents-title h1 {
+  padding-top: 20px;
+}
+@media screen and (min-width: 993px) {
+  /* line 268, ../sass/style-sub.scss */
+  #sp-contents-title h1 {
+    display: none;
+  }
+}
+
+/* line 275, ../sass/style-sub.scss */
+.garally li {
+  width: 32%;
+  float: left;
+  padding: 20px;
+  box-sizing: border-box;
+}
+@media screen and (max-width: 992px) {
+  /* line 275, ../sass/style-sub.scss */
+  .garally li {
+    width: 100%;
+  }
+}
+
+/* line 285, ../sass/style-sub.scss */
+.garally2 li {
+  width: 23%;
+  float: left;
+  padding: 5px;
+  box-sizing: border-box;
+}
+@media screen and (max-width: 992px) {
+  /* line 285, ../sass/style-sub.scss */
+  .garally2 li {
+    width: 50%;
+  }
+}
+
+/* #collection-title h5 {*/
+/*     padding-left: 100px;*/
+/* }*/
+/* line 304, ../sass/style-sub.scss */
+.contact-form {
+  width: 60%;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media screen and (max-width: 992px) {
+  /* line 304, ../sass/style-sub.scss */
+  .contact-form {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 993px) {
+  /* line 314, ../sass/style-sub.scss */
+  #footer-about {
+    padding-left: 100px;
+  }
+}
+
+/* line 320, ../sass/style-sub.scss */
+#jpn-lang h5 {
+  font-family: "Rounded Mplus 1c" !important;
+  font-weight: 400;
+}
+
+/* line 325, ../sass/style-sub.scss */
+.list {
+  overflow: hidden;
+}
+
+/* line 329, ../sass/style-sub.scss */
+.list li {
+  transition: .8s;
+}
+
+/* line 333, ../sass/style-sub.scss */
+.list-mv01 {
+  transform: scale(0, 0);
+  -webkit-transform: scale(0, 0);
+}
+
+/* line 338, ../sass/style-sub.scss */
+.mv01 {
+  transform: scale(1, 1);
+  -webkit-transform: scale(1, 1);
+}
+
+/* line 344, ../sass/style-sub.scss */
+.about-tsubacha p {
+  font-size: 13px;
+}
+
+/* line 350, ../sass/style-sub.scss */
+#design-tool-photo figure {
+  float: left;
+  width: 22%;
+  margin: 10px;
+  box-sizing: border-box;
+}
+@media screen and (max-width: 992px) {
+  /* line 350, ../sass/style-sub.scss */
+  #design-tool-photo figure {
+    width: 50%;
+    margin-right: auto !important;
+    margin-left: auto !important;
+  }
+}
+
+/* line 363, ../sass/style-sub.scss */
+textarea {
+  color: #ffffff;
+}
+
+/* line 367, ../sass/style-sub.scss */
+input {
+  color: #ffffff;
+}
+
+@media screen and (min-width: 993px) {
+  /* line 371, ../sass/style-sub.scss */
+  .page-title {
+    padding-top: 100px;
+  }
+}
+@media screen and (max-width: 992px) {
+  /* line 371, ../sass/style-sub.scss */
+  .page-title {
+    padding-top: 50px;
+  }
+}
+
+/* line 380, ../sass/style-sub.scss */
+#loader {
+  width: 160px;
+  height: 20px;
+  display: none;
+  position: fixed;
+  _position: absolute;
+  top: 60%;
+  left: 50%;
+  margin-top: -40px;
+  margin-left: -40px;
+  z-index: 4;
+}
+@media screen and (min-width: 993px) {
+  /* line 380, ../sass/style-sub.scss */
+  #loader {
+    top: 60%;
+    left: 50%;
+  }
+}
+@media screen and (max-width: 992px) {
+  /* line 380, ../sass/style-sub.scss */
+  #loader {
+    top: 50%;
+    left: 40%;
+  }
+}
+
+/* line 401, ../sass/style-sub.scss */
+#fade {
+  width: 100%;
+  height: 100%;
+  display: none;
+  background: #262626;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 3;
+}
+
+/*# sourceMappingURL=style-sub.css.map */

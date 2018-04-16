@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": ";AAAA,0BAA2B;EACvB,WAAW,EAAE,6BAA6B",
+"sources": ["../sass/about-tsubacha.scss"],
+"names": [],
+"file": "about-tsubacha.css"
+}
